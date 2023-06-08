@@ -127,7 +127,11 @@
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="img/main_mb.jpg" alt="photo">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="img/main_photo_min.jpg">
+                        <source media="(min-width: 769px)" srcset="img/main_mb.jpg">
+                        <img src="img/main_mb.jpg" alt="photo">
+                    </picture>
                 </div>
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title">About me</h2>
@@ -320,6 +324,13 @@
                     </div>
                     <h3 class="title title_fz14">Figma</h3>
                     <p>Whether you're brainstorming ideas, designing prototypes, or building solutions, Figma helps teams align early and stay in-sync, from initial idea to shipped product.</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/bootstrap.svg" alt="html5">
+                    </div>
+                    <h3 class="title title_fz14">Bootstrap</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia nihil quia, error temporibus cupiditate veniam ullam quo, doloremque nesciunt exercitationem in quidem veritatis odio eaque voluptas, recusandae eos unde.</p>
                 </div>
             </div>
 
