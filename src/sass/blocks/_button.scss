@@ -3,4 +3,12 @@
     background: $main-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
+    &:hover {
+        background-color: darken($main-color, 5%);
+        box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.15);
+    }
+    &:active {
+        background-color: darken($main-color, 10%);
+        transform: translateY(2px);
+    }
 }
