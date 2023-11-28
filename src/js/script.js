@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger'),
       menu = document.querySelector('.menu'),
       closeElem = document.querySelector('.menu__close');
+      menuOverlay = document.querySelector('.menu__overlay');
       menuItems = document.querySelectorAll('.menu__link');
 
 hamburger.addEventListener('click', () => {
@@ -8,6 +9,10 @@ hamburger.addEventListener('click', () => {
 });
 
 closeElem.addEventListener('click', () => {
+    menu.classList.remove('active');
+});
+
+menuOverlay.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
