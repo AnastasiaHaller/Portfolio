@@ -473,11 +473,11 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input required name="name" id="name" type="text">
+                            <input name="name" id="name" type="text" class="_req">
                             <label for="name">Your name</label>
                         </div>
                         <div class="contacts__input">
-                            <input required name="email" id="email" type="email">
+                            <input name="email" id="email" type="email" class="_req _email">
                             <label for="email">Your email</label>
                         </div>
 
@@ -486,9 +486,9 @@
                             <label for="text">Your message</label>
                         </div>
                         <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Sent a message</button>
+                            <button type="submit" class="contacts__btn btn">Sent a message</button>
                             <div class="contacts__policy">
-                                <input required type="checkbox">
+                                <input type="checkbox" class="_req">
                                 <span>I agree with <a href="/policy.html">confidenciality policy</a></span>
                             </div>
                         </div>
