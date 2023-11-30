@@ -98,8 +98,8 @@
     }
 }
 ._error {
-    border-color: rgb(202, 54, 54);
-    box-shadow: 0 0 7px rgb(202, 54, 54);
+    border-color: $main-color;
+    box-shadow: 0 0 7px $main-color;
 }
 ._sending {
     background: rgba(50, 50, 50, 0.7) url("../../icons/contacts/loading.gif") center / 40px no-repeat;
